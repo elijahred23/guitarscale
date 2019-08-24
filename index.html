@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guitar Scales</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+<div class="scale">
+
+
+    <h1 class= "title">Guitar Scale Creator</h1>
+    <button type="button" name="button" onclick = "changeAb();abut();">A</button>
+    <button type="button" name="button" onclick = "changeAsb();asbut();">A#</button>
+    <button type="button" name="button" onclick = "changeBb();bbut();">B</button>
+    <button type="button" name="button" onclick = "changeCb();cbut();">C</button>
+    <button type="button" name="button" onclick = "changeCsb();csbut();">C#</button>
+    <button type="button" name="button" onclick = "changeDb();dbut();">D</button>
+    <button type="button" name="button" onclick = "changeDsb();dsbut();">D#</button>
+    <button type="button" name="button" onclick = "changeEb();ebut();" >E</button>
+    <button type="button" name="button" onclick = "changeFb();fbut();">F</button>
+    <button type="button" name="button" onclick = "changeFsb();fsbut();">F#</button>
+    <button type="button" name="button" onclick = "changeGb();gbut();">G</button>
+    <button type="button" name="button" onclick = "changeGsb();gsbut();">G#</button>
+<img class = "guitar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/guitar_1f3b8.png" alt="guitar">
+<br><br>
+    <table border>
+      <th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+
+      </th>
+      <tr >
+        <td class = "width" id = 'e'>E</td>
+        <td class = "width" id = 'f'>F</td>
+        <td class = "width" id = 'f#'>F#</td>
+        <td class = "width" id = 'g'>G</td>
+        <td class = "width" id = 'g#'>G#</td>
+        <td class = "width" id = 'a'>A</td>
+        <td class = "width" id = 'a#'>A#</td>
+        <td class = "width" id = 'b'>B</td>
+        <td class = "width" id = 'c'>C</td>
+        <td class = "width" id = 'c#'>C#</td>
+        <td class = "width" id = 'd'>D</td>
+        <td class = "width" id = 'd#'>D#</td>
+        <td class = "width" id = "e2">E</td>
+
+      </tr>
+      <tr >
+
+        <td class = "width" id = 'b2'>B</td>
+        <td class = "width" id = 'c2'>C</td>
+        <td class = "width" id = 'c#2'>C#</td>
+        <td class = "width" id = 'd2'>D</td>
+        <td class = "width" id = 'd#2'>D#</td>
+        <td class = "width" id = "e3">E</td>
+        <td class = "width" id = 'f2'>F</td>
+        <td class = "width" id = 'f#2'>F#</td>
+        <td class = "width" id = 'g2'>G</td>
+        <td class = "width" id = 'g#2'>G#</td>
+        <td class = "width" id = 'a2'>A</td>
+        <td class = "width" id = 'a#2'>A#</td>
+        <td class = "width" id = 'b3'>B</td>
+
+      </tr>
+      <tr >
+
+        <td class = "width" id = 'g3'>G</td>
+        <td class = "width" id = 'g#3'>G#</td>
+        <td class = "width" id = 'a3'>A</td>
+        <td class = "width" id = 'a#3'>A#</td>
+        <td class = "width" id = 'b4'>B</td>
+        <td class = "width" id = 'c3'>C</td>
+        <td class = "width" id = 'c#3'>C#</td>
+        <td class = "width" id = 'd3'>D</td>
+        <td class = "width" id = 'd#3'>D#</td>
+        <td class = "width" id = "e4">E</td>
+        <td class = "width" id = 'f3'>F</td>
+        <td class = "width" id = 'f#3'>F#</td>
+        <td class = "width" id = 'g4'>G</td>
+      </tr>
+      <tr >
+
+        <td class = "width" id = 'd4'>D</td>
+        <td class = "width" id = 'd#4'>D#</td>
+        <td class = "width" id = "e5">E</td>
+        <td class = "width" id = 'f4'>F</td>
+        <td class = "width" id = 'f#4'>F#</td>
+        <td class = "width" id = 'g5'>G</td>
+        <td class = "width" id = 'g#4'>G#</td>
+        <td class = "width" id = 'a4'>A</td>
+        <td class = "width" id = 'a#4'>A#</td>
+        <td class = "width" id = 'b5'>B</td>
+        <td class = "width" id = 'c4'>C</td>
+        <td class = "width" id = 'c#4'>C#</td>
+        <td class = "width" id = 'd5'>D</td>
+      </tr>
+      <tr >
+
+        <td class = "width" id = 'a5'>A</td>
+        <td class = "width" id = 'a#5'>A#</td>
+        <td class = "width" id = 'b6'>B</td>
+        <td class = "width" id = 'c5'>C</td>
+        <td class = "width" id = 'c#5'>C#</td>
+        <td class = "width" id = 'd6'>D</td>
+        <td class = "width" id = 'd#5'>D#</td>
+        <td class = "width" id = "e6">E</td>
+        <td class = "width" id = 'f5'>F</td>
+        <td class = "width" id = 'f#5'>F#</td>
+        <td class = "width" id = 'g6'>G</td>
+        <td class = "width" id = 'g#5'>G#</td>
+        <td class = "width" id = 'a6'>A</td>
+      </tr>
+      <tr >
+        <td class = "width" id = "e7">E</td>
+        <td class = "width" id = 'f6'>F</td>
+        <td class = "width" id = 'f#6'>F#</td>
+        <td class = "width" id = 'g7'>G</td>
+        <td class = "width" id = 'g#6'>G#</td>
+        <td class = "width" id = 'a7'>A</td>
+        <td class = "width" id = 'a#6'>A#</td>
+        <td class = "width" id = 'b7'>B</td>
+        <td class = "width" id = 'c6'>C</td>
+        <td class = "width" id = 'c#6'>C#</td>
+        <td class = "width" id = 'd7'>D</td>
+        <td class = "width" id = 'd#6'>D#</td>
+        <td class = "width" id = "e8">E</td>
+
+
+      </tr>
+
+    </table>
+    </div>
+    <script src='javascript.js'></script>
+  </body>
+</html>

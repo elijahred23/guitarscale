@@ -1,0 +1,16 @@
+.guitar{
+  position: absolute;
+  left: 99%;
+}
+
+.width {
+  width: 7%;
+}
+.scale{
+  position: absolute;
+  left: 10%
+}
+.title{
+  position: relative;
+  left: 15%;
+}
