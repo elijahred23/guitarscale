@@ -1,10 +1,11 @@
 .guitar{
   position: absolute;
-  left: 99%;
+  right: 1%;
+  top: 100%;
 }
 
 .width {
-  width: 7%;
+  width: 4%;
 }
 .scale{
   position: absolute;
