@@ -12,20 +12,33 @@
 
 
     <h1 class= "title">Guitar Scale Creator</h1>
-    <button type="button" name="button" onclick = "changeAb();abut();">A</button>
-    <button type="button" name="button" onclick = "changeAsb();asbut();">A#</button>
-    <button type="button" name="button" onclick = "changeBb();bbut();">B</button>
-    <button type="button" name="button" onclick = "changeCb();cbut();">C</button>
-    <button type="button" name="button" onclick = "changeCsb();csbut();">C#</button>
-    <button type="button" name="button" onclick = "changeDb();dbut();">D</button>
-    <button type="button" name="button" onclick = "changeDsb();dsbut();">D#</button>
-    <button type="button" name="button" onclick = "changeEb();ebut();" >E</button>
-    <button type="button" name="button" onclick = "changeFb();fbut();">F</button>
-    <button type="button" name="button" onclick = "changeFsb();fsbut();">F#</button>
-    <button type="button" name="button" onclick = "changeGb();gbut();">G</button>
-    <button type="button" name="button" onclick = "changeGsb();gsbut();">G#</button>
-<img class = "guitar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/guitar_1f3b8.png" alt="guitar">
+    <button id = ab type="button" name="button" onclick ="abool();buttonab();changeAb();abut();">A</button>
+    <button id = asb type="button" name="button" onclick = "asbool();buttonasb();changeAsb();asbut();">A#</button>
+    <button id = bb type="button" name="button" onclick = "bbool();buttonbb();changeBb();bbut();">B</button>
+    <button id = cb type="button" name="button" onclick = "cbool();buttoncb();changeCb();cbut();">C</button>
+    <button id = csb type="button" name="button" onclick = "csbool();buttoncsb();changeCsb();csbut();">C#</button>
+    <button id = db type="button" name="button" onclick = "dbool();buttondb();changeDb();dbut();">D</button>
+    <button id = dsb type="button" name="button" onclick = "dsbool();buttondsb();changeDsb();dsbut();">D#</button>
+    <button id = eb type="button" name="button" onclick = "ebool();buttoneb();changeEb();ebut();" >E</button>
+    <button id = fb type="button" name="button" onclick = "fbool();buttonfb();changeFb();fbut();">F</button>
+    <button id = fsb type="button" name="button" onclick = "fsbool();buttonfsb();changeFsb();fsbut();">F#</button>
+    <button id = gb type="button" name="button" onclick = "gbool();buttongb();changeGb();gbut();">G</button>
+    <button id = gsb type="button" name="button" onclick = "gsbool();buttongsb();changeGsb();gsbut();">G#</button>
+ <!--  <img class = "guitar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/guitar_1f3b8.png" alt="guitar">-->
 <br><br>
+<button id = AMajor type="button" name="button" onclick = "aMajor();">A Major</button>
+<button id = A#Major type="button" name="button" onclick ="asMajor();">A# Major</button>
+<button id = BMajor type="button" name="button" onclick="bMajor();">B Major</button>
+<button id = CMajor type="button" name="button" onclick="cMajor();">C Major</button>
+<button id = C#Major type="button" name="button" onclick="csMajor();">C# Major</button>
+<button id = DMajor type="button" name="button" onclick="dMajor();">D Major</button>
+<button id = D#Major type="button" name="button" onclick="dsMajor();">D# Major</button>
+<button id = EMajor type="button" name="button" onclick="eMajor();">E Major</button>
+<button id = FMajor type="button" name="button" onclick="fMajor();">F Major</button>
+<button id = F#Major type="button" name="button" onclick="fsMajor();">F# Major</button>
+<button id = GMajor type="button" name="button" onclick="gMajor();">G Major</button>
+<button id = G#Major type="button" name="button" onclick="gsMajor();">G# Major</button>
+  <p id = "putScale">---------------</p>
 <div id = "tstyle">
     <table border id = 'table'>
       <th>
@@ -232,6 +245,12 @@
     <button id = "resetbutton" type="button" name="button" onclick = "reset();">Reset</button>
 
     </div>
+
+
+
+
+
+
     <script src='javascript.js'></script>
   </body>
 </html>

@@ -16,6 +16,8 @@
   left: 15%;
 }
 
+
+
 body{
   background-color: #39CCCC;
 }
@@ -26,4 +28,46 @@ table{
 #resetbutton{
   position: absolute;
   left: 40%;
+}
+#ab{
+  background-color: #F0F0F0;
+}
+#asb{
+background-color: #F0F0F0;
+}
+#bb{
+background-color: #F0F0F0;
+}
+#cb{
+background-color: #F0F0F0;
+}
+#csb{
+background-color: #F0F0F0;
+}
+#db{
+background-color: #F0F0F0;
+}
+#dsb{
+background-color: #F0F0F0;
+}
+#eb{
+background-color: #F0F0F0;
+}
+#fb{
+background-color: #F0F0F0;
+}
+#fsb{
+background-color: #F0F0F0;
+}
+#gb{
+background-color: #F0F0F0;
+}
+#gsb{
+background-color: #F0F0F0;
+}
+
+#putScale{
+  background-color: white;
+  text-align: center;
+
 }

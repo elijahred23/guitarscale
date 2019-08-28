@@ -1,5 +1,9 @@
-var t = prompt ("What is your favorite color?")
+var t = 'red';
 var w = "white";
+
+//Changes color
+
+//change E buttons
 var eb = false;
 function changeEb(){
   if(eb==false){
@@ -45,6 +49,7 @@ function ebut()
     document.getElementById('e14').style.backgroundColor = w;
   }
 }
+//change F buttons
 var fb = false;
 function changeFb(){
   if(fb==false){
@@ -88,6 +93,7 @@ function fbut()
 
   }
 }
+//change F# buttons
 var fsb = false;
 function changeFsb(){
   if(fsb==false){
@@ -130,6 +136,7 @@ function fsbut()
     document.getElementById('f#12').style.backgroundColor = w;
   }
 }
+//change G buttons
 var gb = false;
 function changeGb(){
   if(gb==false){
@@ -174,6 +181,7 @@ function gbut()
 
   }
 }
+// change G# buttons
 var gsb = false;
 function changeGsb(){
   if(gsb==false){
@@ -217,6 +225,7 @@ function gsbut()
 
   }
 }
+//change A buttons
 var ab = false;
 function changeAb(){
   if(ab==false){
@@ -261,6 +270,7 @@ function abut()
 
   }
 }
+//change A# buttons
 var asb = false;
 function changeAsb(){
   if(asb==false){
@@ -304,6 +314,7 @@ function asbut()
 
   }
 }
+// change B buttons
 var bb = false;
 function changeBb(){
   if(bb==false){
@@ -348,6 +359,7 @@ function bbut()
 
   }
 }
+//change C buttons
 var cb = false;
 function changeCb(){
   if(cb==false){
@@ -391,6 +403,7 @@ function cbut()
 
   }
 }
+//change C# buttons
 var csb = false;
 function changeCsb(){
   if(csb==false){
@@ -434,6 +447,7 @@ function csbut()
 
   }
 }
+//change D buttons
 var db = false;
 function changeDb(){
   if(db==false){
@@ -478,6 +492,7 @@ function dbut()
 
   }
 }
+//change D# buttons
 var dsb = false;
 function changeDsb(){
   if(dsb==false){
@@ -521,6 +536,228 @@ function dsbut()
 
   }
 }
+//Changes button colors
+var a = false;
+function abool(){
+  if(a == false){
+    a = true;
+  }
+  if(a == true){
+    a = false;
+  }
+}
+
+function buttonab(){
+  if (a == true) {
+    document.getElementById('ab').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('ab').style.backgroundColor = '#F0F0F0'
+  }
+}
+var as = false;
+function asbool(){
+  if(as == false){
+    as = true;
+  }
+  else{
+    as = false;
+  }
+}
+
+function buttonasb(){
+  if (as == true) {
+    document.getElementById('asb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('asb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var b = false;
+function bbool(){
+  if(b == false){
+    b = true;
+  }
+  else{
+    b= false;
+  }
+}
+
+function buttonbb(){
+  if (b == true) {
+    document.getElementById('bb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('bb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var c = false;
+function cbool(){
+  if(c == false){
+    c = true;
+  }
+  else{
+    c = false;
+  }
+}
+
+function buttoncb(){
+  if (c == true) {
+    document.getElementById('cb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('cb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var cs = false;
+function csbool(){
+  if(cs == false){
+    cs = true;
+  }
+  else{
+    cs = false;
+  }
+}
+
+function buttoncsb(){
+  if (cs == true) {
+    document.getElementById('csb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('csb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var d = false;
+function dbool(){
+  if(d == false){
+    d = true;
+  }
+  else{
+    d = false;
+  }
+}
+
+function buttondb(){
+  if (d == true) {
+    document.getElementById('db').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('db').style.backgroundColor = '#F0F0F0'
+  }
+}
+var ds = false;
+function dsbool(){
+  if(ds == false){
+    ds = true;
+  }
+  else{
+    ds = false;
+  }
+}
+
+function buttondsb(){
+  if (ds == true) {
+    document.getElementById('dsb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('dsb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var e = false;
+function ebool(){
+  if(e == false){
+    e = true;
+  }
+  else{
+    e = false;
+  }
+}
+
+function buttoneb(){
+  if (e == true) {
+    document.getElementById('eb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('eb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var f = false;
+function fbool(){
+  if(f == false){
+    f = true;
+  }
+  else{
+    f = false;
+  }
+}
+
+function buttonfb(){
+  if (f == true) {
+    document.getElementById('fb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('fb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var fs = false;
+function fsbool(){
+  if(fs == false){
+    fs = true;
+  }
+  else{
+    fs = false;
+  }
+}
+
+function buttonfsb(){
+  if (fs == true) {
+    document.getElementById('fsb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('fsb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var g = false;
+function gbool(){
+  if(g == false){
+    g = true;
+  }
+  else{
+    g = false;
+  }
+}
+
+function buttongb(){
+  if (g == true) {
+    document.getElementById('gb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('gb').style.backgroundColor = '#F0F0F0'
+  }
+}
+var gs = false;
+function gsbool(){
+  if(gs == false){
+    gs = true;
+  }
+  else{
+    gs = false;
+  }
+}
+
+function buttongsb(){
+  if (gs == true) {
+    document.getElementById('gsb').style.backgroundColor = '#A9A9A9'
+  }
+  else{
+    document.getElementById('gsb').style.backgroundColor = '#F0F0F0'
+  }
+}
+
+
+
+
+//Resets everything
 function reset(){
   document.getElementById('e').style.backgroundColor = w;
   document.getElementById('e2').style.backgroundColor = w;
@@ -672,6 +909,34 @@ function reset(){
   document.getElementById('d#10').style.backgroundColor = w;
   document.getElementById('d#11').style.backgroundColor = w;
   document.getElementById('d#12').style.backgroundColor = w;
+  document.getElementById('ab').style.backgroundColor = '#F0F0F0';
+  document.getElementById('asb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('bb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('cb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('csb').style.backgroundColor ='#F0F0F0';
+  document.getElementById('db').style.backgroundColor ='#F0F0F0';
+  document.getElementById('dsb').style.backgroundColor ='#F0F0F0';
+  document.getElementById('eb').style.backgroundColor ='#F0F0F0';
+  document.getElementById('fb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('fsb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('gb').style.backgroundColor = '#F0F0F0';
+  document.getElementById('gsb').style.backgroundColor ='#F0F0F0';
+//Button color reset
+  document.getElementById('AMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('A#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('BMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('CMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('C#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('DMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('D#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('EMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('FMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('F#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('GMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('G#Major').style.backgroundColor ='#F0F0F0';
+
+
+  clearButton();
 
    eb = false;
    fb = false;
@@ -685,4 +950,172 @@ function reset(){
    csb = false;
    db = false;
    dsb = false;
+   e = false;
+   f = false;
+   fs = false;
+   g = false;
+   gs = false;
+   a = false;
+   as = false;
+   b = false;
+   c = false;
+   cs = false;
+   d = false;
+   ds = false;
+}
+function aMajor(){
+reset();
+  document.getElementById('putScale').innerHTML = 'A, B, C#, D, E, F#, G#';
+  document.getElementById('AMajor').style.backgroundColor = t;
+  changeAb();abut();
+  changeBb();bbut();
+  changeCsb();csbut();
+  changeDb();dbut();
+  changeEb();ebut();
+  changeFsb();fsbut();
+  changeGsb();gsbut();
+  }
+function asMajor(){
+
+  reset();
+  document.getElementById('putScale').innerHTML = 'A#, C, D, E, F, G, A';
+  document.getElementById('A#Major').style.backgroundColor = t;
+  changeAsb();asbut();
+  changeDb();dbut();
+  changeDsb();dsbut();
+  changeFb();fbut();
+  changeCb();cbut();
+  changeGb();gbut();
+  changeAb();abut();
+}
+function bMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'B, C#, D#, E, F#, G#, A#';
+  document.getElementById('BMajor').style.backgroundColor = t;
+  changeBb();bbut();
+  changeCsb();csbut();
+  changeDsb();dsbut();
+  changeEb();ebut();
+  changeFsb();fsbut();
+  changeGsb();gsbut();
+  changeAsb();asbut();
+}
+function cMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'C, D, E, F, G, A, B';
+  document.getElementById('CMajor').style.backgroundColor = t;
+  changeCb();cbut();
+  changeDb();dbut();
+  changeEb();ebut();
+  changeFb();fbut();
+  changeGb();gbut();
+  changeAb();abut();
+  changeBb();bbut();
+}
+function csMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'C#, D#, F, F#, G#, A#, C';
+  document.getElementById('C#Major').style.backgroundColor = t;
+  changeCsb();csbut();
+  changeDsb();dsbut();
+  changeFb();fbut();
+  changeFsb();fsbut();
+  changeGsb();gsbut();
+  changeAsb();asbut();
+  changeCb();cbut();
+
+}
+function dMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'D, E, F#, G, A, B, C#';
+  document.getElementById('DMajor').style.backgroundColor = t;
+  changeDb();dbut();
+  changeEb();ebut();
+  changeFsb();fsbut();
+  changeGb();gbut();
+  changeAb();abut();
+  changeBb();bbut();
+  changeCsb();csbut();
+}
+function dsMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'D#, E#, G, G#, A#, B#, D';
+  document.getElementById('D#Major').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeFb();fbut();
+    changeGb();gbut();
+    changeGsb();gsbut();
+    changeAsb();asbut();
+    changeCb();cbut();
+    changeDb();dbut();
+}
+function eMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'E, F#, G#, A, B, C#, D#';
+  document.getElementById('EMajor').style.backgroundColor = t;
+  changeEb();ebut();
+  changeFsb();fsbut();
+  changeGsb();gsbut();
+  changeAb();abut();
+  changeBb();bbut();
+  changeCsb();csbut();
+  changeDsb();dsbut();
+
+}
+function fMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'F, G, A, A#, C, D, E';
+  document.getElementById('FMajor').style.backgroundColor = t;
+  changeFb();fbut();
+  changeGb();gbut();
+  changeAb();abut();
+  changeAsb();asbut();
+  changeCb();cbut();
+  changeDb();dbut();
+  changeEb();ebut();
+
+}
+function fsMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'F#, G#, A#, B, C#, D#, F';
+  document.getElementById('F#Major').style.backgroundColor = t;
+
+  changeFsb();fsbut();
+  changeGsb();gsbut();
+  changeAsb();asbut();
+  changeBb();bbut();
+  changeCsb();csbut();
+  changeDsb();dsbut();
+  changeFb();fbut();
+
+}
+function gMajor(){
+  reset();
+  document.getElementById('putScale').innerHTML = 'G, A, B, C, D, E, F#';
+  document.getElementById('GMajor').style.backgroundColor = t;
+  changeGb();gbut();
+  changeAb();abut();
+  changeBb();bbut();
+  changeCb();cbut();
+  changeDb();dbut();
+  changeEb();ebut();
+  changeFsb();fsbut();
+
+}
+function gsMajor(){
+reset();
+  document.getElementById('putScale').innerHTML = 'G#, A#, C, C#, D#, F, F#';
+  document.getElementById('G#Major').style.backgroundColor = t;
+  changeGsb();gsbut();
+  changeAsb();asbut();
+  changeCb();cbut();
+  changeCsb();csbut();
+  changeDsb();dsbut();
+  changeFb();fbut();
+  changeGb();gbut();
+
+}
+
+function clearButton(){
+  document.getElementById('putScale').innerHTML = '-------------';
 }
