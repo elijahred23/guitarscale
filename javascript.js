@@ -1,5 +1,12 @@
-var t = 'red';
+var t = "#ca3e47";
 var w = "white";
+var x = '#414141';
+var y = '#414141';
+
+//changes tilte
+document.getElementById('title').style.color = t;
+
+
 
 //Changes color
 
@@ -923,17 +930,17 @@ function reset(){
   document.getElementById('gsb').style.backgroundColor ='#F0F0F0';
 //Button color reset
   document.getElementById('AMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('A#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('AsMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('BMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('CMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('C#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('CsMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('DMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('D#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('DsMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('EMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('FMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('F#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('FsMajor').style.backgroundColor ='#F0F0F0';
   document.getElementById('GMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('G#Major').style.backgroundColor ='#F0F0F0';
+  document.getElementById('GsMajor').style.backgroundColor ='#F0F0F0';
 
 
   clearButton();
@@ -978,8 +985,8 @@ reset();
 function asMajor(){
 
   reset();
-  document.getElementById('putScale').innerHTML = 'A#, C, D, E, F, G, A';
-  document.getElementById('A#Major').style.backgroundColor = t;
+  document.getElementById('putScale').innerHTML = 'A#, C, D, D#, F, G, A';
+  document.getElementById('AsMajor').style.backgroundColor = t;
   changeAsb();asbut();
   changeDb();dbut();
   changeDsb();dsbut();
@@ -1015,7 +1022,7 @@ function cMajor(){
 function csMajor(){
   reset();
   document.getElementById('putScale').innerHTML = 'C#, D#, F, F#, G#, A#, C';
-  document.getElementById('C#Major').style.backgroundColor = t;
+  document.getElementById('CsMajor').style.backgroundColor = t;
   changeCsb();csbut();
   changeDsb();dsbut();
   changeFb();fbut();
@@ -1040,7 +1047,7 @@ function dMajor(){
 function dsMajor(){
   reset();
   document.getElementById('putScale').innerHTML = 'D#, E#, G, G#, A#, B#, D';
-  document.getElementById('D#Major').style.backgroundColor = t;
+  document.getElementById('DsMajor').style.backgroundColor = t;
     changeDsb();dsbut();
     changeFb();fbut();
     changeGb();gbut();
@@ -1078,7 +1085,7 @@ function fMajor(){
 function fsMajor(){
   reset();
   document.getElementById('putScale').innerHTML = 'F#, G#, A#, B, C#, D#, F';
-  document.getElementById('F#Major').style.backgroundColor = t;
+  document.getElementById('FsMajor').style.backgroundColor = t;
 
   changeFsb();fsbut();
   changeGsb();gsbut();
@@ -1105,7 +1112,7 @@ function gMajor(){
 function gsMajor(){
 reset();
   document.getElementById('putScale').innerHTML = 'G#, A#, C, C#, D#, F, F#';
-  document.getElementById('G#Major').style.backgroundColor = t;
+  document.getElementById('GsMajor').style.backgroundColor = t;
   changeGsb();gsbut();
   changeAsb();asbut();
   changeCb();cbut();

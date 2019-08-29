@@ -11,7 +11,7 @@
   position: absolute;
   left: 10%
 }
-.title{
+title{
   position: relative;
   left: 15%;
 }
@@ -19,7 +19,11 @@
 
 
 body{
-  background-color: #39CCCC;
+  background-color: #525252;
+  font-family: 'Merriweather', serif;
+
+
+
 }
 table{
   background-color: white;
@@ -66,5 +70,104 @@ background-color: #F0F0F0;
 #putScale{
   background-color: white;
   text-align: center;
+  font-family: 'Merriweather', serif;
 
+}
+/*button colors*/
+#ab{
+  font-family: 'Merriweather', serif;
+}
+
+#asb{
+  font-family: 'Merriweather', serif;
+}
+
+#bb{
+  font-family: 'Merriweather', serif;
+}
+
+#cb{
+  font-family: 'Merriweather', serif;
+}
+
+#csb{
+  font-family: 'Merriweather', serif;
+}
+
+#db{
+  font-family: 'Merriweather', serif;
+}
+
+#dsb{
+  font-family: 'Merriweather', serif;
+}
+
+#eb{
+  font-family: 'Merriweather', serif;
+}
+
+#fb{
+  font-family: 'Merriweather', serif;
+}
+
+#fsb{
+  font-family: 'Merriweather', serif;
+}
+
+#gb{
+  font-family: 'Merriweather', serif;
+}
+
+#gsb{
+  font-family: 'Merriweather', serif;
+}
+#AMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#AsMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#BMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#CMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#CsMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#DMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#DsMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#EMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#FMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#FsMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#GMajor{
+  font-family: 'Merriweather', serif;
+}
+
+#GsMajor{
+  font-family: 'Merriweather', serif;
+}
+#resetbutton{
+  font-family: 'Merriweather', serif;
 }
