@@ -542,7 +542,7 @@ function abool(){
   if(a == false){
     a = true;
   }
-  if(a == true){
+  else{
     a = false;
   }
 }
