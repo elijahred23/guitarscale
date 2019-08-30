@@ -12,64 +12,36 @@
 
 
     <h1 id = "title">Guitar Scale Creator</h1>
-    <button id = ab type="button" name="button" onclick ="abool();buttonab();changeAb();abut();">A</button>
-    <button id = asb type="button" name="button" onclick = "asbool();buttonasb();changeAsb();asbut();">A#</button>
-    <button id = bb type="button" name="button" onclick = "bbool();buttonbb();changeBb();bbut();">B</button>
-    <button id = cb type="button" name="button" onclick = "cbool();buttoncb();changeCb();cbut();">C</button>
-    <button id = csb type="button" name="button" onclick = "csbool();buttoncsb();changeCsb();csbut();">C#</button>
-    <button id = db type="button" name="button" onclick = "dbool();buttondb();changeDb();dbut();">D</button>
-    <button id = dsb type="button" name="button" onclick = "dsbool();buttondsb();changeDsb();dsbut();">D#</button>
-    <button id = eb type="button" name="button" onclick = "ebool();buttoneb();changeEb();ebut();" >E</button>
-    <button id = fb type="button" name="button" onclick = "fbool();buttonfb();changeFb();fbut();">F</button>
-    <button id = fsb type="button" name="button" onclick = "fsbool();buttonfsb();changeFsb();fsbut();">F#</button>
-    <button id = gb type="button" name="button" onclick = "gbool();buttongb();changeGb();gbut();">G</button>
-    <button id = gsb type="button" name="button" onclick = "gsbool();buttongsb();changeGsb();gsbut();">G#</button>
- <!--  <img class = "guitar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/guitar_1f3b8.png" alt="guitar">-->
-<br><br>
-<button id = AMajor type="button" name="button" onclick = "aMajor();">A Major</button>
-<button id = AsMajor type="button" name="button" onclick ="asMajor();">A# Major</button>
-<button id = BMajor type="button" name="button" onclick="bMajor();">B Major</button>
-<button id = CMajor type="button" name="button" onclick="cMajor();">C Major</button>
-<button id = CsMajor type="button" name="button" onclick="csMajor();">C# Major</button>
-<button id = DMajor type="button" name="button" onclick="dMajor();">D Major</button>
-<button id = DsMajor type="button" name="button" onclick="dsMajor();">D# Major</button>
-<button id = EMajor type="button" name="button" onclick="eMajor();">E Major</button>
-<button id = FMajor type="button" name="button" onclick="fMajor();">F Major</button>
-<button id = FsMajor type="button" name="button" onclick="fsMajor();">F# Major</button>
-<button id = GMajor type="button" name="button" onclick="gMajor();">G Major</button>
-<button id = GsMajor type="button" name="button" onclick="gsMajor();">G# Major</button>
-<br><br>
-<button id = "resetbutton" type="button" name="button" onclick = "reset();">Reset</button>
-<br>
-  <p id = "putScale">---------------</p>
+
+
 <br>
 <div id = "tstyle">
     <table border id = 'table'>
       <th>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-        <td>10</td>
-        <td>11</td>
-        <td>12</td>
-        <td>13</td>
-        <td>14</td>
-        <td>15</td>
-        <td>16</td>
-        <td>17</td>
-        <td>18</td>
-        <td>29</td>
-        <td>20</td>
-        <td>21</td>
-        <td>22</td>
-        <td>23</td>
-        <td>24</td>
+        <td id = "num1">1</td>
+        <td id = "num2">2</td>
+        <td id = "num3">3</td>
+        <td id = "num4">4</td>
+        <td id = "num5">5</td>
+        <td id = "num6">6</td>
+        <td id = "num7">7</td>
+        <td id = "num8">8</td>
+        <td id = "num9">9</td>
+        <td id = "num10">10</td>
+        <td id = "num11">11</td>
+        <td id = "num12">12</td>
+        <td id = "num13">13</td>
+        <td id = "num14">14</td>
+        <td id = "num15">15</td>
+        <td id = "num16">16</td>
+        <td id = "num17">17</td>
+        <td id = "num18">18</td>
+        <td id = "num19">29</td>
+        <td id = "num20">20</td>
+        <td id = "num21">21</td>
+        <td id = "num22">22</td>
+        <td id = "num23">23</td>
+        <td id = "num24">24</td>
 
       </th>
       <tr >
@@ -241,7 +213,40 @@
         <td class = "width" id = "e14">E</td>
 
       </tr>
+
     </table>
+    <br><br>
+    <p id = "putScale">---------------</p>
+    <br><br>
+    <button id = ab type="button" name="button" onclick ="abool();buttonab();changeAb();abut();">A</button>
+    <button id = asb type="button" name="button" onclick = "asbool();buttonasb();changeAsb();asbut();">A#</button>
+    <button id = bb type="button" name="button" onclick = "bbool();buttonbb();changeBb();bbut();">B</button>
+    <button id = cb type="button" name="button" onclick = "cbool();buttoncb();changeCb();cbut();">C</button>
+    <button id = csb type="button" name="button" onclick = "csbool();buttoncsb();changeCsb();csbut();">C#</button>
+    <button id = db type="button" name="button" onclick = "dbool();buttondb();changeDb();dbut();">D</button>
+    <button id = dsb type="button" name="button" onclick = "dsbool();buttondsb();changeDsb();dsbut();">D#</button>
+    <button id = eb type="button" name="button" onclick = "ebool();buttoneb();changeEb();ebut();" >E</button>
+    <button id = fb type="button" name="button" onclick = "fbool();buttonfb();changeFb();fbut();">F</button>
+    <button id = fsb type="button" name="button" onclick = "fsbool();buttonfsb();changeFsb();fsbut();">F#</button>
+    <button id = gb type="button" name="button" onclick = "gbool();buttongb();changeGb();gbut();">G</button>
+    <button id = gsb type="button" name="button" onclick = "gsbool();buttongsb();changeGsb();gsbut();">G#</button>
+ <!--  <img class = "guitar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/guitar_1f3b8.png" alt="guitar">-->
+<br><br>
+<button id = AMajor type="button" name="button" onclick = "aMajor();">A Major</button>
+<button id = AsMajor type="button" name="button" onclick ="asMajor();">A# Major</button>
+<button id = BMajor type="button" name="button" onclick="bMajor();">B Major</button>
+<button id = CMajor type="button" name="button" onclick="cMajor();">C Major</button>
+<button id = CsMajor type="button" name="button" onclick="csMajor();">C# Major</button>
+<button id = DMajor type="button" name="button" onclick="dMajor();">D Major</button>
+<button id = DsMajor type="button" name="button" onclick="dsMajor();">D# Major</button>
+<button id = EMajor type="button" name="button" onclick="eMajor();">E Major</button>
+<button id = FMajor type="button" name="button" onclick="fMajor();">F Major</button>
+<button id = FsMajor type="button" name="button" onclick="fsMajor();">F# Major</button>
+<button id = GMajor type="button" name="button" onclick="gMajor();">G Major</button>
+<button id = GsMajor type="button" name="button" onclick="gsMajor();">G# Major</button>
+<br><br>
+<button id = "resetbutton" type="button" name="button" onclick = "reset();">Reset</button>
+<br>
   </div>
 
 

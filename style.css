@@ -3,72 +3,46 @@
   right: 1%;
   top: 100%;
 }
-
-.width {
+.width{
   width: 4%;
 }
+
 .scale{
   position: absolute;
   left: 10%
 }
 title{
+
   position: relative;
   left: 15%;
+
 }
 
-
+td{
+  width: 3.8331em;
+}
 
 body{
-  background-color: #525252;
+
   font-family: 'Merriweather', serif;
-
-
-
+  position: absolute;
+  left: 1%;
 }
 table{
-  background-color: white;
+  background-color: #ebefd0;
+  width: 1600px;
 }
 
 
-#ab{
-  background-color: #F0F0F0;
+#title{
+
+    font-size: 5em;
+
 }
-#asb{
-background-color: #F0F0F0;
-}
-#bb{
-background-color: #F0F0F0;
-}
-#cb{
-background-color: #F0F0F0;
-}
-#csb{
-background-color: #F0F0F0;
-}
-#db{
-background-color: #F0F0F0;
-}
-#dsb{
-background-color: #F0F0F0;
-}
-#eb{
-background-color: #F0F0F0;
-}
-#fb{
-background-color: #F0F0F0;
-}
-#fsb{
-background-color: #F0F0F0;
-}
-#gb{
-background-color: #F0F0F0;
-}
-#gsb{
-background-color: #F0F0F0;
-}
+
 
 #putScale{
-  background-color: white;
+  background-color: #ebefd0;
   text-align: center;
   font-family: 'Merriweather', serif;
 

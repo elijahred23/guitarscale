@@ -1,14 +1,266 @@
-var t = "#ca3e47";
-var w = "white";
-var x = '#414141';
-var y = '#414141';
+var t = "#ff502f";
+var w = "#ebefd0";
+var x = "#ff502f";
+var y = '#49beb7';
+var sizeOfFont = '2.5em'
 
-//changes tilte
-document.getElementById('title').style.color = t;
+//span1
+
+//Change body background colors
+
+document.body.style.backgroundColor = y;
+//changes title
+document.getElementById('title').style.color = x;
+//Change background color of majorscale buttonas
+document.getElementById('AMajor').style.backgroundColor = w;
+document.getElementById('AsMajor').style.backgroundColor = w;
+document.getElementById('BMajor').style.backgroundColor = w;
+document.getElementById('CMajor').style.backgroundColor = w;
+document.getElementById('CsMajor').style.backgroundColor = w;
+document.getElementById('DMajor').style.backgroundColor = w;
+document.getElementById('DsMajor').style.backgroundColor = w;
+document.getElementById('EMajor').style.backgroundColor = w;
+document.getElementById('FMajor').style.backgroundColor = w;
+document.getElementById('FsMajor').style.backgroundColor = w;
+document.getElementById('GMajor').style.backgroundColor = w;
+document.getElementById('GsMajor').style.backgroundColor = w;
+//Changes background color of reset button
+document.getElementById('resetbutton').style.background =w;
+//Changes background color of buttons
+document.getElementById('ab').style.backgroundColor = w;
+document.getElementById('asb').style.backgroundColor = w;
+document.getElementById('bb').style.backgroundColor = w;
+document.getElementById('cb').style.backgroundColor = w;
+document.getElementById('csb').style.backgroundColor = w;
+document.getElementById('db').style.backgroundColor = w;
+document.getElementById('dsb').style.backgroundColor = w;
+document.getElementById('eb').style.backgroundColor = w;
+document.getElementById('fb').style.backgroundColor = w;
+document.getElementById('fsb').style.backgroundColor = w;
+document.getElementById('gb').style.backgroundColor = w;
+document.getElementById('gsb').style.backgroundColor = w;
+//Chagnes size of font on buttons
+
+document.getElementById('ab').style.fontSize = sizeOfFont;
+document.getElementById('asb').style.fontSize = sizeOfFont;
+document.getElementById('bb').style.fontSize = sizeOfFont;
+document.getElementById('cb').style.fontSize = sizeOfFont;
+document.getElementById('csb').style.fontSize = sizeOfFont;
+document.getElementById('db').style.fontSize = sizeOfFont;
+document.getElementById('dsb').style.fontSize = sizeOfFont;
+document.getElementById('eb').style.fontSize = sizeOfFont;
+document.getElementById('fb').style.fontSize = sizeOfFont;
+document.getElementById('fsb').style.fontSize = sizeOfFont;
+document.getElementById('gb').style.fontSize = sizeOfFont;
+document.getElementById('gsb').style.fontSize = sizeOfFont;
+//changesthe font size of majorscale buttons
+document.getElementById('AMajor').style.fontSize = sizeOfFont;
+document.getElementById('AsMajor').style.fontSize = sizeOfFont;
+document.getElementById('BMajor').style.fontSize = sizeOfFont;
+document.getElementById('CMajor').style.fontSize = sizeOfFont;
+document.getElementById('CsMajor').style.fontSize = sizeOfFont;
+document.getElementById('DMajor').style.fontSize = sizeOfFont;
+document.getElementById('DsMajor').style.fontSize = sizeOfFont;
+document.getElementById('EMajor').style.fontSize = sizeOfFont;
+document.getElementById('FMajor').style.fontSize = sizeOfFont;
+document.getElementById('FsMajor').style.fontSize = sizeOfFont;
+document.getElementById('GMajor').style.fontSize = sizeOfFont;
+document.getElementById('GsMajor').style.fontSize = sizeOfFont
+//changes fontsize of resetbutton
+document.getElementById('resetbutton').style.fontSize = sizeOfFont;
+//changes putScale font size
+document.getElementById('putScale').style.fontSize = sizeOfFont;
+//changes fontsize of numbers
+
+document.getElementById('num1').style.fontSize = sizeOfFont;
+document.getElementById('num2').style.fontSize = sizeOfFont;
+document.getElementById('num3').style.fontSize = sizeOfFont;
+document.getElementById('num4').style.fontSize = sizeOfFont;
+document.getElementById('num5').style.fontSize = sizeOfFont;
+document.getElementById('num6').style.fontSize = sizeOfFont;
+document.getElementById('num7').style.fontSize = sizeOfFont;
+document.getElementById('num8').style.fontSize = sizeOfFont;
+document.getElementById('num9').style.fontSize = sizeOfFont;
+document.getElementById('num10').style.fontSize = sizeOfFont;
+document.getElementById('num11').style.fontSize = sizeOfFont;
+document.getElementById('num12').style.fontSize = sizeOfFont;
+document.getElementById('num13').style.fontSize = sizeOfFont;
+document.getElementById('num14').style.fontSize = sizeOfFont;
+document.getElementById('num15').style.fontSize = sizeOfFont;
+document.getElementById('num16').style.fontSize = sizeOfFont;
+document.getElementById('num17').style.fontSize = sizeOfFont;
+document.getElementById('num18').style.fontSize = sizeOfFont;
+document.getElementById('num19').style.fontSize = sizeOfFont;
+document.getElementById('num20').style.fontSize = sizeOfFont;
+document.getElementById('num21').style.fontSize = sizeOfFont;
+document.getElementById('num22').style.fontSize = sizeOfFont;
+document.getElementById('num23').style.fontSize = sizeOfFont;
+document.getElementById('num24').style.fontSize = sizeOfFont;
+//Changes fontsize of td
+document.getElementById('e').style.fontSize = sizeOfFont;
+document.getElementById('e2').style.fontSize = sizeOfFont;
+document.getElementById('e3').style.fontSize = sizeOfFont;
+document.getElementById('e4').style.fontSize = sizeOfFont;
+document.getElementById('e5').style.fontSize = sizeOfFont;
+document.getElementById('e6').style.fontSize = sizeOfFont;
+document.getElementById('e7').style.fontSize = sizeOfFont;
+document.getElementById('e8').style.fontSize = sizeOfFont;
+document.getElementById('e9').style.fontSize = sizeOfFont;
+document.getElementById('e10').style.fontSize = sizeOfFont;
+document.getElementById('e11').style.fontSize = sizeOfFont;
+document.getElementById('e12').style.fontSize = sizeOfFont;
+document.getElementById('e13').style.fontSize = sizeOfFont;
+document.getElementById('e14').style.fontSize = sizeOfFont;
+
+document.getElementById('f').style.fontSize = sizeOfFont;
+document.getElementById('f2').style.fontSize = sizeOfFont;
+document.getElementById('f3').style.fontSize = sizeOfFont;
+document.getElementById('f4').style.fontSize = sizeOfFont;
+document.getElementById('f5').style.fontSize = sizeOfFont;
+document.getElementById('f6').style.fontSize = sizeOfFont;
+document.getElementById('f7').style.fontSize = sizeOfFont;
+document.getElementById('f8').style.fontSize = sizeOfFont;
+document.getElementById('f9').style.fontSize = sizeOfFont;
+document.getElementById('f10').style.fontSize = sizeOfFont;
+document.getElementById('f11').style.fontSize = sizeOfFont;
+document.getElementById('f12').style.fontSize = sizeOfFont;
+
+document.getElementById('f#').style.fontSize = sizeOfFont;
+document.getElementById('f#2').style.fontSize = sizeOfFont;
+document.getElementById('f#3').style.fontSize = sizeOfFont;
+document.getElementById('f#4').style.fontSize = sizeOfFont;
+document.getElementById('f#5').style.fontSize = sizeOfFont;
+document.getElementById('f#6').style.fontSize = sizeOfFont;
+document.getElementById('f#7').style.fontSize = sizeOfFont;
+document.getElementById('f#8').style.fontSize = sizeOfFont;
+document.getElementById('f#9').style.fontSize = sizeOfFont;
+document.getElementById('f#10').style.fontSize = sizeOfFont;
+document.getElementById('f#11').style.fontSize = sizeOfFont;
+document.getElementById('f#12').style.fontSize = sizeOfFont;
+
+document.getElementById('g').style.fontSize = sizeOfFont;
+document.getElementById('g2').style.fontSize = sizeOfFont;
+document.getElementById('g3').style.fontSize = sizeOfFont;
+document.getElementById('g4').style.fontSize = sizeOfFont;
+document.getElementById('g5').style.fontSize = sizeOfFont;
+document.getElementById('g6').style.fontSize = sizeOfFont;
+document.getElementById('g7').style.fontSize = sizeOfFont;
+document.getElementById('g8').style.fontSize = sizeOfFont;
+document.getElementById('g9').style.fontSize = sizeOfFont;
+document.getElementById('g10').style.fontSize = sizeOfFont;
+document.getElementById('g11').style.fontSize = sizeOfFont;
+document.getElementById('g12').style.fontSize = sizeOfFont;
+document.getElementById('g13').style.fontSize = sizeOfFont;
+
+document.getElementById('g#').style.fontSize = sizeOfFont;
+document.getElementById('g#2').style.fontSize = sizeOfFont;
+document.getElementById('g#3').style.fontSize = sizeOfFont;
+document.getElementById('g#4').style.fontSize = sizeOfFont;
+document.getElementById('g#5').style.fontSize = sizeOfFont;
+document.getElementById('g#6').style.fontSize = sizeOfFont;
+document.getElementById('g#7').style.fontSize = sizeOfFont;
+document.getElementById('g#8').style.fontSize = sizeOfFont;
+document.getElementById('g#9').style.fontSize = sizeOfFont;
+document.getElementById('g#10').style.fontSize = sizeOfFont;
+document.getElementById('g#11').style.fontSize = sizeOfFont;
+document.getElementById('g#12').style.fontSize = sizeOfFont;
 
 
+document.getElementById('a').style.fontSize = sizeOfFont;
+document.getElementById('a2').style.fontSize = sizeOfFont;
+document.getElementById('a3').style.fontSize = sizeOfFont;
+document.getElementById('a4').style.fontSize = sizeOfFont;
+document.getElementById('a5').style.fontSize = sizeOfFont;
+document.getElementById('a6').style.fontSize = sizeOfFont;
+document.getElementById('a7').style.fontSize = sizeOfFont;
+document.getElementById('a8').style.fontSize = sizeOfFont;
+document.getElementById('a9').style.fontSize = sizeOfFont;
+document.getElementById('a10').style.fontSize = sizeOfFont;
+document.getElementById('a11').style.fontSize = sizeOfFont;
+document.getElementById('a12').style.fontSize = sizeOfFont;
+document.getElementById('a13').style.fontSize = sizeOfFont;
 
-//Changes color
+
+document.getElementById('a#').style.fontSize = sizeOfFont;
+document.getElementById('a#2').style.fontSize = sizeOfFont;
+document.getElementById('a#3').style.fontSize = sizeOfFont;
+document.getElementById('a#4').style.fontSize = sizeOfFont;
+document.getElementById('a#5').style.fontSize = sizeOfFont;
+document.getElementById('a#6').style.fontSize = sizeOfFont;
+document.getElementById('a#7').style.fontSize = sizeOfFont;
+document.getElementById('a#8').style.fontSize = sizeOfFont;
+document.getElementById('a#9').style.fontSize = sizeOfFont;
+document.getElementById('a#10').style.fontSize = sizeOfFont;
+document.getElementById('a#11').style.fontSize = sizeOfFont;
+document.getElementById('a#12').style.fontSize = sizeOfFont;
+
+
+document.getElementById('b').style.fontSize = sizeOfFont;
+document.getElementById('b2').style.fontSize = sizeOfFont;
+document.getElementById('b3').style.fontSize = sizeOfFont;
+document.getElementById('b4').style.fontSize = sizeOfFont;
+document.getElementById('b5').style.fontSize = sizeOfFont;
+document.getElementById('b6').style.fontSize = sizeOfFont;
+document.getElementById('b7').style.fontSize = sizeOfFont;
+document.getElementById('b8').style.fontSize = sizeOfFont;
+document.getElementById('b9').style.fontSize = sizeOfFont;
+document.getElementById('b10').style.fontSize = sizeOfFont;
+document.getElementById('b11').style.fontSize = sizeOfFont;
+document.getElementById('b12').style.fontSize = sizeOfFont;
+document.getElementById('b13').style.fontSize = sizeOfFont;
+
+document.getElementById('c').style.fontSize = sizeOfFont;
+document.getElementById('c2').style.fontSize = sizeOfFont;
+document.getElementById('c3').style.fontSize = sizeOfFont;
+document.getElementById('c4').style.fontSize = sizeOfFont;
+document.getElementById('c5').style.fontSize = sizeOfFont;
+document.getElementById('c6').style.fontSize = sizeOfFont;
+document.getElementById('c7').style.fontSize = sizeOfFont;
+document.getElementById('c8').style.fontSize = sizeOfFont;
+document.getElementById('c9').style.fontSize = sizeOfFont;
+document.getElementById('c10').style.fontSize = sizeOfFont;
+document.getElementById('c11').style.fontSize = sizeOfFont;
+document.getElementById('c12').style.fontSize = sizeOfFont;
+
+document.getElementById('c#').style.fontSize = sizeOfFont;
+document.getElementById('c#2').style.fontSize = sizeOfFont;
+document.getElementById('c#3').style.fontSize = sizeOfFont;
+document.getElementById('c#4').style.fontSize = sizeOfFont;
+document.getElementById('c#5').style.fontSize = sizeOfFont;
+document.getElementById('c#6').style.fontSize = sizeOfFont;
+document.getElementById('c#7').style.fontSize = sizeOfFont;
+document.getElementById('c#8').style.fontSize = sizeOfFont;
+document.getElementById('c#9').style.fontSize = sizeOfFont;
+document.getElementById('c#10').style.fontSize = sizeOfFont;
+document.getElementById('c#11').style.fontSize = sizeOfFont;
+document.getElementById('c#12').style.fontSize = sizeOfFont;
+
+document.getElementById('d').style.fontSize = sizeOfFont;
+document.getElementById('d2').style.fontSize = sizeOfFont;
+document.getElementById('d3').style.fontSize = sizeOfFont;
+document.getElementById('d4').style.fontSize = sizeOfFont;
+document.getElementById('d5').style.fontSize = sizeOfFont;
+document.getElementById('d6').style.fontSize = sizeOfFont;
+document.getElementById('d7').style.fontSize = sizeOfFont;
+document.getElementById('d8').style.fontSize = sizeOfFont;
+document.getElementById('d9').style.fontSize = sizeOfFont;
+document.getElementById('d10').style.fontSize = sizeOfFont;
+document.getElementById('d11').style.fontSize = sizeOfFont;
+document.getElementById('d12').style.fontSize = sizeOfFont;
+document.getElementById('d13').style.fontSize = sizeOfFont;
+
+document.getElementById('d#').style.fontSize = sizeOfFont;
+document.getElementById('d#2').style.fontSize = sizeOfFont;
+document.getElementById('d#3').style.fontSize = sizeOfFont;
+document.getElementById('d#4').style.fontSize = sizeOfFont;
+document.getElementById('d#5').style.fontSize = sizeOfFont;
+document.getElementById('d#6').style.fontSize = sizeOfFont;
+document.getElementById('d#7').style.fontSize = sizeOfFont;
+document.getElementById('d#8').style.fontSize = sizeOfFont;
+document.getElementById('d#9').style.fontSize = sizeOfFont;
+document.getElementById('d#10').style.fontSize = sizeOfFont;
+document.getElementById('d#11').style.fontSize = sizeOfFont;
+document.getElementById('d#12').style.fontSize = sizeOfFont;
 
 //change E buttons
 var eb = false;
@@ -38,6 +290,7 @@ function ebut()
     document.getElementById('e12').style.backgroundColor = t;
     document.getElementById('e13').style.backgroundColor = t;
     document.getElementById('e14').style.backgroundColor = t;
+
   }
   else{
     document.getElementById('e').style.backgroundColor = w;
@@ -54,6 +307,7 @@ function ebut()
     document.getElementById('e12').style.backgroundColor = w;
     document.getElementById('e13').style.backgroundColor = w;
     document.getElementById('e14').style.backgroundColor = w;
+
   }
 }
 //change F buttons
@@ -259,6 +513,7 @@ function abut()
     document.getElementById('a11').style.backgroundColor = t;
     document.getElementById('a12').style.backgroundColor = t;
     document.getElementById('a13').style.backgroundColor = t;
+
   }
   else{
     document.getElementById('a').style.backgroundColor = w;
@@ -274,6 +529,7 @@ function abut()
     document.getElementById('a11').style.backgroundColor = w;
     document.getElementById('a12').style.backgroundColor = w;
     document.getElementById('a13').style.backgroundColor = w;
+
 
   }
 }
@@ -526,6 +782,7 @@ function dsbut()
     document.getElementById('d#11').style.backgroundColor = t;
     document.getElementById('d#12').style.backgroundColor = t;
 
+
   }
   else{
     document.getElementById('d#').style.backgroundColor = w;
@@ -540,6 +797,7 @@ function dsbut()
     document.getElementById('d#10').style.backgroundColor = w;
     document.getElementById('d#11').style.backgroundColor = w;
     document.getElementById('d#12').style.backgroundColor = w;
+
 
   }
 }
@@ -556,10 +814,10 @@ function abool(){
 
 function buttonab(){
   if (a == true) {
-    document.getElementById('ab').style.backgroundColor = '#A9A9A9'
+    document.getElementById('ab').style.backgroundColor = t;
   }
   else{
-    document.getElementById('ab').style.backgroundColor = '#F0F0F0'
+    document.getElementById('ab').style.backgroundColor = w;
   }
 }
 var as = false;
@@ -574,10 +832,10 @@ function asbool(){
 
 function buttonasb(){
   if (as == true) {
-    document.getElementById('asb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('asb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('asb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('asb').style.backgroundColor = w;
   }
 }
 var b = false;
@@ -592,10 +850,10 @@ function bbool(){
 
 function buttonbb(){
   if (b == true) {
-    document.getElementById('bb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('bb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('bb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('bb').style.backgroundColor = w
   }
 }
 var c = false;
@@ -610,10 +868,10 @@ function cbool(){
 
 function buttoncb(){
   if (c == true) {
-    document.getElementById('cb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('cb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('cb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('cb').style.backgroundColor = w;
   }
 }
 var cs = false;
@@ -628,10 +886,10 @@ function csbool(){
 
 function buttoncsb(){
   if (cs == true) {
-    document.getElementById('csb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('csb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('csb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('csb').style.backgroundColor = w;
   }
 }
 var d = false;
@@ -646,10 +904,10 @@ function dbool(){
 
 function buttondb(){
   if (d == true) {
-    document.getElementById('db').style.backgroundColor = '#A9A9A9'
+    document.getElementById('db').style.backgroundColor = t;
   }
   else{
-    document.getElementById('db').style.backgroundColor = '#F0F0F0'
+    document.getElementById('db').style.backgroundColor = w;
   }
 }
 var ds = false;
@@ -664,10 +922,10 @@ function dsbool(){
 
 function buttondsb(){
   if (ds == true) {
-    document.getElementById('dsb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('dsb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('dsb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('dsb').style.backgroundColor = w;
   }
 }
 var e = false;
@@ -682,10 +940,10 @@ function ebool(){
 
 function buttoneb(){
   if (e == true) {
-    document.getElementById('eb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('eb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('eb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('eb').style.backgroundColor = w;
   }
 }
 var f = false;
@@ -700,10 +958,10 @@ function fbool(){
 
 function buttonfb(){
   if (f == true) {
-    document.getElementById('fb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('fb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('fb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('fb').style.backgroundColor = w;
   }
 }
 var fs = false;
@@ -718,10 +976,10 @@ function fsbool(){
 
 function buttonfsb(){
   if (fs == true) {
-    document.getElementById('fsb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('fsb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('fsb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('fsb').style.backgroundColor = w;
   }
 }
 var g = false;
@@ -736,10 +994,10 @@ function gbool(){
 
 function buttongb(){
   if (g == true) {
-    document.getElementById('gb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('gb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('gb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('gb').style.backgroundColor = w;
   }
 }
 var gs = false;
@@ -754,10 +1012,10 @@ function gsbool(){
 
 function buttongsb(){
   if (gs == true) {
-    document.getElementById('gsb').style.backgroundColor = '#A9A9A9'
+    document.getElementById('gsb').style.backgroundColor = t;
   }
   else{
-    document.getElementById('gsb').style.backgroundColor = '#F0F0F0'
+    document.getElementById('gsb').style.backgroundColor = w;
   }
 }
 
@@ -916,31 +1174,34 @@ function reset(){
   document.getElementById('d#10').style.backgroundColor = w;
   document.getElementById('d#11').style.backgroundColor = w;
   document.getElementById('d#12').style.backgroundColor = w;
-  document.getElementById('ab').style.backgroundColor = '#F0F0F0';
-  document.getElementById('asb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('bb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('cb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('csb').style.backgroundColor ='#F0F0F0';
-  document.getElementById('db').style.backgroundColor ='#F0F0F0';
-  document.getElementById('dsb').style.backgroundColor ='#F0F0F0';
-  document.getElementById('eb').style.backgroundColor ='#F0F0F0';
-  document.getElementById('fb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('fsb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('gb').style.backgroundColor = '#F0F0F0';
-  document.getElementById('gsb').style.backgroundColor ='#F0F0F0';
+  document.getElementById('ab').style.backgroundColor = w;
+  document.getElementById('asb').style.backgroundColor = w;
+  document.getElementById('bb').style.backgroundColor = w;
+  document.getElementById('cb').style.backgroundColor = w;
+  document.getElementById('csb').style.backgroundColor =w;
+  document.getElementById('db').style.backgroundColor =w;
+  document.getElementById('dsb').style.backgroundColor =w;
+  document.getElementById('eb').style.backgroundColor =w;
+  document.getElementById('fb').style.backgroundColor = w;
+  document.getElementById('fsb').style.backgroundColor = w;
+  document.getElementById('gb').style.backgroundColor = w;
+  document.getElementById('gsb').style.backgroundColor =w;
 //Button color reset
-  document.getElementById('AMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('AsMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('BMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('CMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('CsMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('DMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('DsMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('EMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('FMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('FsMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('GMajor').style.backgroundColor ='#F0F0F0';
-  document.getElementById('GsMajor').style.backgroundColor ='#F0F0F0';
+  document.getElementById('AMajor').style.backgroundColor =w;
+  document.getElementById('AsMajor').style.backgroundColor =w;
+  document.getElementById('BMajor').style.backgroundColor =w;
+  document.getElementById('CMajor').style.backgroundColor =w;
+  document.getElementById('CsMajor').style.backgroundColor =w;
+  document.getElementById('DMajor').style.backgroundColor =w;
+  document.getElementById('DsMajor').style.backgroundColor =w;
+  document.getElementById('EMajor').style.backgroundColor =w;
+  document.getElementById('FMajor').style.backgroundColor =w;
+  document.getElementById('FsMajor').style.backgroundColor =w;
+  document.getElementById('GMajor').style.backgroundColor =w;
+  document.getElementById('GsMajor').style.backgroundColor =w;
+
+
+
 
 
   clearButton();
@@ -970,6 +1231,8 @@ function reset(){
    d = false;
    ds = false;
 }
+
+//Functions for the major scale
 function aMajor(){
 reset();
   document.getElementById('putScale').innerHTML = 'A, B, C#, D, E, F#, G#';
