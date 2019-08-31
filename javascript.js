@@ -53,6 +53,35 @@ document.getElementById('fb').style.backgroundColor = w;
 document.getElementById('fsb').style.backgroundColor = w;
 document.getElementById('gb').style.backgroundColor = w;
 document.getElementById('gsb').style.backgroundColor = w;
+
+//Changes background color of Major Chord buttons
+document.getElementById('AMajC').style.backgroundColor = w;
+document.getElementById('AsMajC').style.backgroundColor = w;
+document.getElementById('BMajC').style.backgroundColor = w;
+document.getElementById('CMajC').style.backgroundColor = w;
+document.getElementById('CsMajC').style.backgroundColor = w;
+document.getElementById('DMajC').style.backgroundColor = w;
+document.getElementById('DsMajC').style.backgroundColor = w;
+document.getElementById('EMajC').style.backgroundColor = w;
+document.getElementById('FMajC').style.backgroundColor = w;
+document.getElementById('FsMajC').style.backgroundColor = w;
+document.getElementById('GMajC').style.backgroundColor = w;
+document.getElementById('GsMajC').style.backgroundColor = w;
+
+//changes background color of Minor Chord buttons
+document.getElementById('AMinC').style.backgroundColor = w;
+document.getElementById('AsMinC').style.backgroundColor = w;
+document.getElementById('BMinC').style.backgroundColor = w;
+document.getElementById('CMinC').style.backgroundColor = w;
+document.getElementById('CsMinC').style.backgroundColor = w;
+document.getElementById('DMinC').style.backgroundColor = w;
+document.getElementById('DsMinC').style.backgroundColor = w;
+document.getElementById('EMinC').style.backgroundColor = w;
+document.getElementById('FMinC').style.backgroundColor = w;
+document.getElementById('FsMinC').style.backgroundColor = w;
+document.getElementById('GMinC').style.backgroundColor = w;
+document.getElementById('GsMinC').style.backgroundColor = w;
+
 //Chagnes size of font on buttons
 
 document.getElementById('ab').style.fontSize = sizeOfFont;
@@ -288,6 +317,33 @@ document.getElementById('d#9').style.fontSize = sizeOfFont;
 document.getElementById('d#10').style.fontSize = sizeOfFont;
 document.getElementById('d#11').style.fontSize = sizeOfFont;
 document.getElementById('d#12').style.fontSize = sizeOfFont;
+
+document.getElementById('AMajC').style.fontSize = sizeOfFont;
+document.getElementById('AsMajC').style.fontSize = sizeOfFont;
+document.getElementById('BMajC').style.fontSize = sizeOfFont;
+document.getElementById('CMajC').style.fontSize = sizeOfFont;
+document.getElementById('CsMajC').style.fontSize = sizeOfFont;
+document.getElementById('DMajC').style.fontSize = sizeOfFont;
+document.getElementById('DsMajC').style.fontSize = sizeOfFont;
+document.getElementById('EMajC').style.fontSize = sizeOfFont;
+document.getElementById('FMajC').style.fontSize = sizeOfFont;
+document.getElementById('FsMajC').style.fontSize = sizeOfFont;
+document.getElementById('GMajC').style.fontSize = sizeOfFont;
+document.getElementById('GsMajC').style.fontSize = sizeOfFont;
+
+document.getElementById('AMinC').style.fontSize = sizeOfFont;
+document.getElementById('AsMinC').style.fontSize = sizeOfFont;
+document.getElementById('BMinC').style.fontSize = sizeOfFont;
+document.getElementById('CMinC').style.fontSize = sizeOfFont;
+document.getElementById('CsMinC').style.fontSize = sizeOfFont;
+document.getElementById('DMinC').style.fontSize = sizeOfFont;
+document.getElementById('DsMinC').style.fontSize = sizeOfFont;
+document.getElementById('EMinC').style.fontSize = sizeOfFont;
+document.getElementById('FMinC').style.fontSize = sizeOfFont;
+document.getElementById('FsMinC').style.fontSize = sizeOfFont;
+document.getElementById('GMinC').style.fontSize = sizeOfFont;
+document.getElementById('GsMinC').style.fontSize = sizeOfFont;
+
 
 //change E buttons
 var eb = false;
@@ -1240,6 +1296,33 @@ document.getElementById('FMinor').style.backgroundColor = w;
 document.getElementById('FsMinor').style.backgroundColor = w;
 document.getElementById('GMinor').style.backgroundColor = w;
 document.getElementById('GsMinor').style.backgroundColor = w;
+//majorchord reset
+document.getElementById('AMajC').style.backgroundColor = w;
+document.getElementById('AsMajC').style.backgroundColor = w;
+document.getElementById('BMajC').style.backgroundColor = w;
+document.getElementById('CMajC').style.backgroundColor = w;
+document.getElementById('CsMajC').style.backgroundColor = w;
+document.getElementById('DMajC').style.backgroundColor = w;
+document.getElementById('DsMajC').style.backgroundColor = w;
+document.getElementById('EMajC').style.backgroundColor = w;
+document.getElementById('FMajC').style.backgroundColor = w;
+document.getElementById('FsMajC').style.backgroundColor = w;
+document.getElementById('GMajC').style.backgroundColor = w;
+document.getElementById('GsMajC').style.backgroundColor = w;
+//minorchord reset
+document.getElementById('AMinC').style.backgroundColor = w;
+document.getElementById('AsMinC').style.backgroundColor = w;
+document.getElementById('BMinC').style.backgroundColor = w;
+document.getElementById('CMinC').style.backgroundColor = w;
+document.getElementById('CsMinC').style.backgroundColor = w;
+document.getElementById('DMinC').style.backgroundColor = w;
+document.getElementById('DsMinC').style.backgroundColor = w;
+document.getElementById('EMinC').style.backgroundColor = w;
+document.getElementById('FMinC').style.backgroundColor = w;
+document.getElementById('FsMinC').style.backgroundColor = w;
+document.getElementById('GMinC').style.backgroundColor = w;
+document.getElementById('GsMinC').style.backgroundColor = w;
+
 
 
 
@@ -1348,7 +1431,7 @@ function dMajor(){
 }
 function dsMajor(){
   reset();
-  document.getElementById('putScale').innerHTML = 'D#, E#, G, G#, A#, B#, D';
+  document.getElementById('putScale').innerHTML = 'D#, F, G, G#, A#, B#, D';
   document.getElementById('DsMajor').style.backgroundColor = t;
     changeDsb();dsbut();
     changeFb();fbut();
@@ -1464,7 +1547,7 @@ function bMinor(){
 }
 function cMinor(){
   reset();
-  document.getElementById('putScale').innerHTML = 'C, D, D#, E#, G, G#, A#, ';
+  document.getElementById('putScale').innerHTML = 'C, D, D#, F, G, G#, A#, ';
   document.getElementById('CMinor').style.backgroundColor = t;
     changeDsb();dsbut();
     changeFb();fbut();
@@ -1577,6 +1660,203 @@ reset();
     changeGsb();gsbut();
     changeAsb();asbut();
   }
+  //Major chords
+  function aMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A, C#, E';
+    document.getElementById('AMajC').style.backgroundColor = t;
+    changeAb();abut();
+    changeCsb();csbut();
+    changeEb();ebut();
+  }
+  function asMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A#, D, F';
+    document.getElementById('AsMajC').style.backgroundColor = t;
+    changeAsb();asbut();
+    changeDb();dbut();
+    changeFb();fbut();
+  }
+  function bMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'B, D#, F#';
+    document.getElementById('BMajC').style.backgroundColor = t;
+    changeBb();bbut();
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+  }
+  function cMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C, E, G';
+    document.getElementById('CMajC').style.backgroundColor = t;
+    changeCb();cbut();
+    changeEb();ebut();
+    changeGb();gbut();
+  }
+  function csMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C#, F, G#';
+    document.getElementById('CsMajC').style.backgroundColor = t;
+    changeCsb();csbut();
+    changeFb();fbut();
+    changeGsb();gsbut();
+  }
+  function dMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D, F#, A';
+    document.getElementById('DMajC').style.backgroundColor = t;
+    changeDb();dbut();
+    changeFsb();fsbut();
+    changeAb();abut();
+  }
+  function dsMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D#, G, A#';
+    document.getElementById('DsMajC').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeGb();gbut();
+    changeAsb();asbut();
+  }
+  function eMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'E, G#, B';
+    document.getElementById('EMajC').style.backgroundColor = t;
+    changeEb();ebut();
+    changeGsb();gsbut();
+    changeBb();bbut();
+  }
+  function fMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F, A, C';
+    document.getElementById('FMajC').style.backgroundColor = t;
+    changeFb();fbut();
+    changeAb();abut();
+    changeCb();cbut();
+  }
+  function fsMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F#, A#, C#';
+    document.getElementById('FsMajC').style.backgroundColor = t;
+    changeFsb();fsbut();
+    changeAsb();asbut();
+    changeCsb();csbut();
+  }
+  function gMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G, B, D';
+    document.getElementById('GMajC').style.backgroundColor = t;
+    changeGb();gbut();
+    changeBb();bbut();
+    changeDb();dbut();
+  }
+  function gsMajC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G#, C, D#';
+    document.getElementById('GsMajC').style.backgroundColor = t;
+    changeGsb();gsbut();
+    changeCb();cbut();
+    changeDsb();dsbut();
+  }
+  //Minor button Functions
+  function aMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A, C, E';
+    document.getElementById('AMinC').style.backgroundColor = t;
+    changeAb();abut();
+    changeCb();cbut();
+    changeEb();ebut();
+  }
+  function asMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A#, C#, F';
+    document.getElementById('AsMinC').style.backgroundColor = t;
+    changeCsb(); csbut();
+    changeAsb();asbut();
+    changeFb();fbut();
+  }
+  function bMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'B, D, F#';
+    document.getElementById('BMinC').style.backgroundColor = t;
+    changeBb();bbut();
+    changeDb();dbut();
+    changeFsb();fsbut();
+  }
+  function cMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C, D#, G';
+    document.getElementById('CMinC').style.backgroundColor = t;
+    changeCb();cbut();
+    changeDsb();dsbut();
+    changeGb();gbut();
+  }
+  function csMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C#, E, G#';
+    document.getElementById('CsMinC').style.backgroundColor = t;
+    changeCsb();csbut();
+    changeEb();ebut();
+    changeGsb();gsbut();
+  }
+  function dMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D, F, A';
+    document.getElementById('DMinC').style.backgroundColor = t;
+    changeDb();dbut();
+    changeFb();fbut();
+    changeAb();abut();
+  }
+  function dsMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D#, F#, A#';
+    document.getElementById('DsMinC').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+    changeAsb();asbut();
+  }
+  function eMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'E, G, B';
+    document.getElementById('EMinC').style.backgroundColor = t;
+    changeEb();ebut();
+    changeGb();gbut();
+    changeBb();bbut();
+  }
+  function fMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F, G#, C';
+    document.getElementById('FMinC').style.backgroundColor = t;
+    changeFb();fbut();
+    changeGsb();gsbut();
+    changeCb();cbut();
+  }
+  function fsMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F#, A, C#';
+    document.getElementById('FsMinC').style.backgroundColor = t;
+    changeFsb();fsbut();
+    changeAb();abut();
+    changeCsb();csbut();
+  }
+  function gMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G, A#, D';
+    document.getElementById('GMinC').style.backgroundColor = t;
+    changeGb();gbut();
+    changeAsb();asbut();
+    changeDb();dbut();
+  }
+  function gsMinC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G#, B, D#';
+    document.getElementById('GsMinC').style.backgroundColor = t;
+    changeGsb();gsbut();
+    changeBb();bbut();
+    changeDsb();dsbut();
+  }
+
+
+//Clear button function
 function clearButton(){
   document.getElementById('putScale').innerHTML = '-------------';
 }
