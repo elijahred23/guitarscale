@@ -110,6 +110,20 @@ document.getElementById('FsMaj7C').style.backgroundColor = w;
 document.getElementById('GMaj7C').style.backgroundColor = w;
 document.getElementById('GsMaj7C').style.backgroundColor = w;
 
+//changes background color of minor 7 chord buttons
+document.getElementById('AMin7C').style.backgroundColor = w;
+document.getElementById('AsMin7C').style.backgroundColor = w;
+document.getElementById('BMin7C').style.backgroundColor = w;
+document.getElementById('CMin7C').style.backgroundColor = w;
+document.getElementById('CsMin7C').style.backgroundColor = w;
+document.getElementById('DMin7C').style.backgroundColor = w;
+document.getElementById('DsMin7C').style.backgroundColor = w;
+document.getElementById('EMin7C').style.backgroundColor = w;
+document.getElementById('FMin7C').style.backgroundColor = w;
+document.getElementById('FsMin7C').style.backgroundColor = w;
+document.getElementById('GMin7C').style.backgroundColor = w;
+document.getElementById('GsMin7C').style.backgroundColor = w;
+
 //Chagnes size of font on buttons
 
 document.getElementById('ab').style.fontSize = sizeOfFont;
@@ -397,6 +411,19 @@ document.getElementById('FMaj7C').style.fontSize = sizeOfFont;
 document.getElementById('FsMaj7C').style.fontSize = sizeOfFont;
 document.getElementById('GMaj7C').style.fontSize = sizeOfFont;
 document.getElementById('GsMaj7C').style.fontSize = sizeOfFont;
+
+document.getElementById('AMin7C').style.fontSize = sizeOfFont;
+document.getElementById('AsMin7C').style.fontSize = sizeOfFont;
+document.getElementById('BMin7C').style.fontSize = sizeOfFont;
+document.getElementById('CMin7C').style.fontSize = sizeOfFont;
+document.getElementById('CsMin7C').style.fontSize = sizeOfFont;
+document.getElementById('DMin7C').style.fontSize = sizeOfFont;
+document.getElementById('DsMin7C').style.fontSize = sizeOfFont;
+document.getElementById('EMin7C').style.fontSize = sizeOfFont;
+document.getElementById('FMin7C').style.fontSize = sizeOfFont;
+document.getElementById('FsMin7C').style.fontSize = sizeOfFont;
+document.getElementById('GMin7C').style.fontSize = sizeOfFont;
+document.getElementById('GsMin7C').style.fontSize = sizeOfFont;
 
 //change E buttons
 var eb = false;
@@ -1402,6 +1429,19 @@ document.getElementById('FsMaj7C').style.backgroundColor = w;
 document.getElementById('GMaj7C').style.backgroundColor = w;
 document.getElementById('GsMaj7C').style.backgroundColor = w;
 
+document.getElementById('AMin7C').style.backgroundColor = w;
+document.getElementById('AsMin7C').style.backgroundColor = w;
+document.getElementById('BMin7C').style.backgroundColor = w;
+document.getElementById('CMin7C').style.backgroundColor = w;
+document.getElementById('CsMin7C').style.backgroundColor = w;
+document.getElementById('DMin7C').style.backgroundColor = w;
+document.getElementById('DsMin7C').style.backgroundColor = w;
+document.getElementById('EMin7C').style.backgroundColor = w;
+document.getElementById('FMin7C').style.backgroundColor = w;
+document.getElementById('FsMin7C').style.backgroundColor = w;
+document.getElementById('GMin7C').style.backgroundColor = w;
+document.getElementById('GsMin7C').style.backgroundColor = w;
+
   clearButton();
 
    eb = false;
@@ -2139,7 +2179,115 @@ reset();
     changeDsb();dsbut();
     changeGb();gbut();
   }
-
+  //Minor 7 chord button Functions
+  function aMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A, C, E, G';
+    document.getElementById('AMin7C').style.backgroundColor = t;
+    changeAb();abut();
+    changeCb();cbut();
+    changeEb();ebut();
+    changeGb();gbut();
+  }
+  function asMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A#, C#, F, G#';
+    document.getElementById('AsMin7C').style.backgroundColor = t;
+    changeCsb(); csbut();
+    changeAsb();asbut();
+    changeFb();fbut();
+    changeGsb();gsbut();
+  }
+  function bMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'B, D, F#, A';
+    document.getElementById('BMin7C').style.backgroundColor = t;
+    changeBb();bbut();
+    changeDb();dbut();
+    changeFsb();fsbut();
+    changeAb();abut();
+  }
+  function cMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C, D#, G, A#';
+    document.getElementById('CMin7C').style.backgroundColor = t;
+    changeCb();cbut();
+    changeDsb();dsbut();
+    changeGb();gbut();
+    changeAsb();asbut()
+  }
+  function csMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C#, E, G#, B';
+    document.getElementById('CsMin7C').style.backgroundColor = t;
+    changeCsb();csbut();
+    changeEb();ebut();
+    changeGsb();gsbut();
+    changeBb();bbut();
+  }
+  function dMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D, F, A, C';
+    document.getElementById('DMin7C').style.backgroundColor = t;
+    changeDb();dbut();
+    changeFb();fbut();
+    changeAb();abut();
+    changeCb();cbut();
+  }
+  function dsMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D#, F#, A#, C#';
+    document.getElementById('DsMin7C').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+    changeAsb();asbut();
+    changeCsb();csbut();
+  }
+  function eMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'E, G, B, D';
+    document.getElementById('EMin7C').style.backgroundColor = t;
+    changeEb();ebut();
+    changeGb();gbut();
+    changeBb();bbut();
+    changeDb();dbut();
+  }
+  function fMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F, G#, C, D#';
+    document.getElementById('FMin7C').style.backgroundColor = t;
+    changeFb();fbut();
+    changeGsb();gsbut();
+    changeCb();cbut();
+    changeDsb();dsbut();
+  }
+  function fsMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F#, A, C#, E';
+    document.getElementById('FsMin7C').style.backgroundColor = t;
+    changeFsb();fsbut();
+    changeAb();abut();
+    changeCsb();csbut();
+    changeEb();ebut();
+  }
+  function gMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G, A#, D, F';
+    document.getElementById('GMin7C').style.backgroundColor = t;
+    changeGb();gbut();
+    changeAsb();asbut();
+    changeDb();dbut();
+    changeFb();fbut();
+  }
+  function gsMin7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G#, B, D#, F#';
+    document.getElementById('GsMin7C').style.backgroundColor = t;
+    changeGsb();gsbut();
+    changeBb();bbut();
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+  }
 
 //Clear button function
 function clearButton(){
