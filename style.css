@@ -11,12 +11,6 @@
   position: absolute;
   left: 10%
 }
-title{
-
-  position: relative;
-  left: 15%;
-
-}
 
 td{
   width: 3.8331em;
@@ -263,6 +257,44 @@ table{
 #GsMinC{
   font-family: 'Merriweather', serif;
 }
+
+#ADimC{
+  font-family: 'Merriweather', serif;
+}
+#AsDimC{
+  font-family: 'Merriweather', serif;
+}
+#BDimC{
+  font-family: 'Merriweather', serif;
+}
+#CDimC{
+  font-family: 'Merriweather', serif;
+}
+#CsDimC{
+  font-family: 'Merriweather', serif;
+}
+#DDimC{
+  font-family: 'Merriweather', serif;
+}
+#DsDimC{
+  font-family: 'Merriweather', serif;
+}
+#EDimC{
+  font-family: 'Merriweather', serif;
+}
+#FDimC{
+  font-family: 'Merriweather', serif;
+}
+#FsDimC{
+  font-family: 'Merriweather', serif;
+}
+#GDimC{
+  font-family: 'Merriweather', serif;
+}
+#GsDimC{
+  font-family: 'Merriweather', serif;
+}
+
 
 #resetbutton{
   font-family: 'Merriweather', serif;

@@ -82,6 +82,20 @@ document.getElementById('FsMinC').style.backgroundColor = w;
 document.getElementById('GMinC').style.backgroundColor = w;
 document.getElementById('GsMinC').style.backgroundColor = w;
 
+//changes background color of dominished chord buttonas
+document.getElementById('ADimC').style.backgroundColor = w;
+document.getElementById('AsDimC').style.backgroundColor = w;
+document.getElementById('BDimC').style.backgroundColor = w;
+document.getElementById('CDimC').style.backgroundColor = w;
+document.getElementById('CsDimC').style.backgroundColor = w;
+document.getElementById('DDimC').style.backgroundColor = w;
+document.getElementById('DsDimC').style.backgroundColor = w;
+document.getElementById('EDimC').style.backgroundColor = w;
+document.getElementById('FDimC').style.backgroundColor = w;
+document.getElementById('FsDimC').style.backgroundColor = w;
+document.getElementById('GDimC').style.backgroundColor = w;
+document.getElementById('GsDimC').style.backgroundColor = w;
+
 //Chagnes size of font on buttons
 
 document.getElementById('ab').style.fontSize = sizeOfFont;
@@ -343,6 +357,19 @@ document.getElementById('FMinC').style.fontSize = sizeOfFont;
 document.getElementById('FsMinC').style.fontSize = sizeOfFont;
 document.getElementById('GMinC').style.fontSize = sizeOfFont;
 document.getElementById('GsMinC').style.fontSize = sizeOfFont;
+
+document.getElementById('ADimC').style.fontSize = sizeOfFont;
+document.getElementById('AsDimC').style.fontSize = sizeOfFont;
+document.getElementById('BDimC').style.fontSize = sizeOfFont;
+document.getElementById('CDimC').style.fontSize = sizeOfFont;
+document.getElementById('CsDimC').style.fontSize = sizeOfFont;
+document.getElementById('DDimC').style.fontSize = sizeOfFont;
+document.getElementById('DsDimC').style.fontSize = sizeOfFont;
+document.getElementById('EDimC').style.fontSize = sizeOfFont;
+document.getElementById('FDimC').style.fontSize = sizeOfFont;
+document.getElementById('FsDimC').style.fontSize = sizeOfFont;
+document.getElementById('GDimC').style.fontSize = sizeOfFont;
+document.getElementById('GsDimC').style.fontSize = sizeOfFont;
 
 
 //change E buttons
@@ -1296,7 +1323,7 @@ document.getElementById('FMinor').style.backgroundColor = w;
 document.getElementById('FsMinor').style.backgroundColor = w;
 document.getElementById('GMinor').style.backgroundColor = w;
 document.getElementById('GsMinor').style.backgroundColor = w;
-//majorchord reset
+//major chord reset
 document.getElementById('AMajC').style.backgroundColor = w;
 document.getElementById('AsMajC').style.backgroundColor = w;
 document.getElementById('BMajC').style.backgroundColor = w;
@@ -1309,7 +1336,7 @@ document.getElementById('FMajC').style.backgroundColor = w;
 document.getElementById('FsMajC').style.backgroundColor = w;
 document.getElementById('GMajC').style.backgroundColor = w;
 document.getElementById('GsMajC').style.backgroundColor = w;
-//minorchord reset
+//minor chord reset
 document.getElementById('AMinC').style.backgroundColor = w;
 document.getElementById('AsMinC').style.backgroundColor = w;
 document.getElementById('BMinC').style.backgroundColor = w;
@@ -1322,8 +1349,19 @@ document.getElementById('FMinC').style.backgroundColor = w;
 document.getElementById('FsMinC').style.backgroundColor = w;
 document.getElementById('GMinC').style.backgroundColor = w;
 document.getElementById('GsMinC').style.backgroundColor = w;
-
-
+//diminished chord reset
+document.getElementById('ADimC').style.backgroundColor = w;
+document.getElementById('AsDimC').style.backgroundColor = w;
+document.getElementById('BDimC').style.backgroundColor = w;
+document.getElementById('CDimC').style.backgroundColor = w;
+document.getElementById('CsDimC').style.backgroundColor = w;
+document.getElementById('DDimC').style.backgroundColor = w;
+document.getElementById('DsDimC').style.backgroundColor = w;
+document.getElementById('EDimC').style.backgroundColor = w;
+document.getElementById('FDimC').style.backgroundColor = w;
+document.getElementById('FsDimC').style.backgroundColor = w;
+document.getElementById('GDimC').style.backgroundColor = w;
+document.getElementById('GsDimC').style.backgroundColor = w;
 
 
   clearButton();
@@ -1853,6 +1891,105 @@ reset();
     changeGsb();gsbut();
     changeBb();bbut();
     changeDsb();dsbut();
+  }
+
+  //Functions for dominished chords
+  function aDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A, C, D#';
+    document.getElementById('ADimC').style.backgroundColor = t;
+    changeAb(); abut();
+    changeCb(); cbut();
+    changeDsb();dsbut();
+  }
+  function asDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A#, C#, E';
+    document.getElementById('AsDimC').style.backgroundColor = t;
+    changeAsb();asbut();
+    changeCsb();csbut();
+    changeEb();ebut();
+  }
+  function bDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'B, D, F';
+    document.getElementById('BDimC').style.backgroundColor = t;
+    changeBb();bbut();
+    changeDb();dbut();
+    changeFb();fbut();
+  }
+  function cDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C, D#, F#';
+    document.getElementById('CDimC').style.backgroundColor = t;
+    changeCb();cbut();
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+  }
+  function csDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C#, E, G';
+    document.getElementById('CsDimC').style.backgroundColor = t;
+    changeCsb();csbut();
+    changeEb();ebut();
+    changeGb();gbut();
+  }
+  function dDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D, F, G#';
+    document.getElementById('DDimC').style.backgroundColor = t;
+    changeDb();dbut();
+    changeFb();fbut();
+    changeGsb();gsbut();
+  }
+  function dsDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D#, F#, A';
+    document.getElementById('DsDimC').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+    changeAb();abut();
+
+  }
+  function eDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'E, G, A#';
+    document.getElementById('EDimC').style.backgroundColor = t;
+    changeEb();ebut();
+    changeGb();gbut();
+    changeAsb();asbut();
+  }
+  function fDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F, G#, B';
+    document.getElementById('FDimC').style.backgroundColor = t;
+    changeFb();fbut();
+    changeGsb();gsbut();
+    changeBb();bbut();
+  }
+  function fsDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F#, A, C';
+    document.getElementById('FsDimC').style.backgroundColor = t;
+    changeFsb();fsbut();
+    changeAb();abut();
+    changeCb();cbut();
+  }
+  function gDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G, A#, C#';
+    document.getElementById('GDimC').style.backgroundColor = t;
+    changeGb();gbut();
+    changeAsb();asbut();
+    changeCsb();csbut();
+  }
+  function gsDimC(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G#, B, D';
+    document.getElementById('GsDimC').style.backgroundColor = t;
+    changeGsb();gsbut();
+    changeBb();bbut();
+    changeDb();dbut();
   }
 
 
