@@ -82,7 +82,7 @@ document.getElementById('FsMinC').style.backgroundColor = w;
 document.getElementById('GMinC').style.backgroundColor = w;
 document.getElementById('GsMinC').style.backgroundColor = w;
 
-//changes background color of dominished chord buttonas
+//changes background color of dominished chord buttons
 document.getElementById('ADimC').style.backgroundColor = w;
 document.getElementById('AsDimC').style.backgroundColor = w;
 document.getElementById('BDimC').style.backgroundColor = w;
@@ -95,6 +95,20 @@ document.getElementById('FDimC').style.backgroundColor = w;
 document.getElementById('FsDimC').style.backgroundColor = w;
 document.getElementById('GDimC').style.backgroundColor = w;
 document.getElementById('GsDimC').style.backgroundColor = w;
+
+//changes background color of major 7 chord buttons
+document.getElementById('AMaj7C').style.backgroundColor = w;
+document.getElementById('AsMaj7C').style.backgroundColor = w;
+document.getElementById('BMaj7C').style.backgroundColor = w;
+document.getElementById('CMaj7C').style.backgroundColor = w;
+document.getElementById('CsMaj7C').style.backgroundColor = w;
+document.getElementById('DMaj7C').style.backgroundColor = w;
+document.getElementById('DsMaj7C').style.backgroundColor = w;
+document.getElementById('EMaj7C').style.backgroundColor = w;
+document.getElementById('FMaj7C').style.backgroundColor = w;
+document.getElementById('FsMaj7C').style.backgroundColor = w;
+document.getElementById('GMaj7C').style.backgroundColor = w;
+document.getElementById('GsMaj7C').style.backgroundColor = w;
 
 //Chagnes size of font on buttons
 
@@ -371,6 +385,18 @@ document.getElementById('FsDimC').style.fontSize = sizeOfFont;
 document.getElementById('GDimC').style.fontSize = sizeOfFont;
 document.getElementById('GsDimC').style.fontSize = sizeOfFont;
 
+document.getElementById('AMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('AsMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('BMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('CMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('CsMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('DMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('DsMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('EMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('FMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('FsMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('GMaj7C').style.fontSize = sizeOfFont;
+document.getElementById('GsMaj7C').style.fontSize = sizeOfFont;
 
 //change E buttons
 var eb = false;
@@ -1362,7 +1388,19 @@ document.getElementById('FDimC').style.backgroundColor = w;
 document.getElementById('FsDimC').style.backgroundColor = w;
 document.getElementById('GDimC').style.backgroundColor = w;
 document.getElementById('GsDimC').style.backgroundColor = w;
-
+//major 7 chord reset
+document.getElementById('AMaj7C').style.backgroundColor = w;
+document.getElementById('AsMaj7C').style.backgroundColor = w;
+document.getElementById('BMaj7C').style.backgroundColor = w;
+document.getElementById('CMaj7C').style.backgroundColor = w;
+document.getElementById('CsMaj7C').style.backgroundColor = w;
+document.getElementById('DMaj7C').style.backgroundColor = w;
+document.getElementById('DsMaj7C').style.backgroundColor = w;
+document.getElementById('EMaj7C').style.backgroundColor = w;
+document.getElementById('FMaj7C').style.backgroundColor = w;
+document.getElementById('FsMaj7C').style.backgroundColor = w;
+document.getElementById('GMaj7C').style.backgroundColor = w;
+document.getElementById('GsMaj7C').style.backgroundColor = w;
 
   clearButton();
 
@@ -1990,6 +2028,116 @@ reset();
     changeGsb();gsbut();
     changeBb();bbut();
     changeDb();dbut();
+  }
+
+  //major 7 Functions
+  function aMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A, C#, E, G#';
+    document.getElementById('AMaj7C').style.backgroundColor = t;
+    changeAb();abut();
+    changeCsb();csbut();
+    changeEb();ebut();
+    changeGsb();gsbut();
+  }
+  function asMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'A#, D, F, A';
+    document.getElementById('AsMaj7C').style.backgroundColor = t;
+    changeAsb();asbut();
+    changeDb();dbut();
+    changeFb();fbut();
+    changeAb();abut();
+  }
+  function bMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'B, D#, F#, A#';
+    document.getElementById('BMaj7C').style.backgroundColor = t;
+    changeBb();bbut();
+    changeDsb();dsbut();
+    changeFsb();fsbut();
+    changeAsb();asbut();
+  }
+  function cMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C, E, G, B';
+    document.getElementById('CMaj7C').style.backgroundColor = t;
+    changeCb();cbut();
+    changeEb();ebut();
+    changeGb();gbut();
+    changeBb();bbut();
+  }
+  function csMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'C#, F, G#, C';
+    document.getElementById('CsMaj7C').style.backgroundColor = t;
+    changeCsb();csbut();
+    changeFb();fbut();
+    changeGsb();gsbut();
+    changeCb();cbut();
+  }
+  function dMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D, F#, A, C#';
+    document.getElementById('DMaj7C').style.backgroundColor = t;
+    changeDb();dbut();
+    changeFsb();fsbut();
+    changeAb();abut();
+    changeCsb();csbut();
+  }
+  function dsMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'D#, G, A#, D';
+    document.getElementById('DsMaj7C').style.backgroundColor = t;
+    changeDsb();dsbut();
+    changeGb();gbut();
+    changeAsb();asbut();
+    changeDb();dbut();
+  }
+  function eMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'E, G#, B, D#';
+    document.getElementById('EMaj7C').style.backgroundColor = t;
+    changeEb();ebut();
+    changeGsb();gsbut();
+    changeBb();bbut();
+    changeDsb();dsbut();
+  }
+  function fMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F, A, C, E';
+    document.getElementById('FMaj7C').style.backgroundColor = t;
+    changeFb();fbut();
+    changeAb();abut();
+    changeCb();cbut();
+    changeEb();ebut();
+  }
+  function fsMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'F#, A#, C#, F';
+    document.getElementById('FsMaj7C').style.backgroundColor = t;
+    changeFsb();fsbut();
+    changeAsb();asbut();
+    changeCsb();csbut();
+    changeFb();fbut();
+  }
+  function gMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G, B, D, F#';
+    document.getElementById('GMaj7C').style.backgroundColor = t;
+    changeGb();gbut();
+    changeBb();bbut();
+    changeDb();dbut();
+    changeFsb();fsbut();
+  }
+  function gsMaj7C(){
+    reset();
+    document.getElementById('putScale').innerHTML = 'G#, C, D#, G';
+    document.getElementById('GsMaj7C').style.backgroundColor = t;
+    changeGsb();gsbut();
+    changeCb();cbut();
+    changeDsb();dsbut();
+    changeGb();gbut();
   }
 
 
