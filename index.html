@@ -8,16 +8,8 @@
   </head>
 
   <body>
-<div class="scale">
-
-<div id = "tableandputScale">
-    <h1 id = "title">Guitar Scales</h1>
-
-
-<br>
-
-
-    <table border id = 'table'>
+<div id = "myHeader">
+    <table border >
       <th>
         <td id = "num1">1</td>
         <td id = "num2">2</td>
@@ -214,12 +206,13 @@
         <td class = "width" id = "e14">E</td>
 
       </tr>
-
     </table>
-    <br><br>
     <p id = "putScale">---------------</p>
   </div>
-    <br><br>
+  <div id="content">
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- These are the individual note buttons -->
     <button id = ab type="button" name="button" onclick ="abool();buttonab();changeAb();abut();">A</button>
     <button id = asb type="button" name="button" onclick = "asbool();buttonasb();changeAsb();asbut();">A#</button>
@@ -251,6 +244,7 @@
 <button id = GMajor type="button" name="button" onclick="gMajor();">G Major</button>
 <button id = GsMajor type="button" name="button" onclick="gsMajor();">G# Major</button>
 <br>
+
 <p>Minor Scales</p>
  <!-- These are the minor buttons -->
 <button id = AMinor type="button" name="button" onclick = "aMinor();">A Minor</button>
@@ -343,12 +337,13 @@
  <button id = GMin7C type="button" name="button" onclick = "gMin7C();">G Min7</button>
  <button id = GsMin7C type="button" name="button" onclick = "gsMin7C();">G# Min7</button>
 
+
  <!-- Reset button -->
  <br><br>
 <button id = "resetbutton" type="button" name="button" onclick = "reset();">Reset</button>
 <br>
 <br>
-
+  </div>
 
 
 

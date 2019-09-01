@@ -12,6 +12,7 @@
   left: 10%
 }
 
+
 td{
   width: 3.8331em;
 }
@@ -26,25 +27,24 @@ body{
 table{
   background-color: #ebefd0;
   width: 1600px;
+  
+
 }
-/*
-#tableandputScale{
+
+#myHeader{
 position: fixed;
-left:10%;
+left:0%;
+top:0%;
 }
-*/
 
-#title{
 
-    font-size: 5em;
-
-}
 
 
 #putScale{
   background-color: #ebefd0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  margin-top: 0;
 
 }
 /*button colors*/

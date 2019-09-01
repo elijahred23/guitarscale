@@ -4,13 +4,17 @@ var x = "#ff502f";
 var y = '#49beb7';
 var sizeOfFont = '2.5em'
 
-//span1
+//scroll fixed
+
+
+
+
 
 //Change body background colors
 
 document.body.style.backgroundColor = y;
 //changes title
-document.getElementById('title').style.color = x;
+
 //Change background color of majorscale buttonas
 document.getElementById('AMajor').style.backgroundColor = w;
 document.getElementById('AsMajor').style.backgroundColor = w;
